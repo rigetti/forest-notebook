@@ -1,3 +1,4 @@
+# build from the forest Docker image
 FROM rigetti/forest:2.16.0
 
 # install requirements for latex generation
