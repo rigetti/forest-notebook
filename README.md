@@ -1,6 +1,10 @@
 Interactive quantum programming with Forest & Jupyter
 =====================================================
 
+[![pipeline status][gitlab-badge]][gitlab-project]
+[![github release][github-badge]][github-release]
+[![docker pulls][docker-badge]][forest-notebook]
+
 The `forest-notebook` repository contains the [`Dockerfile`][dockerfile]
 for building the [`rigetti/forest-notebook`][forest-notebook] image.
 This image contains an interactive quantum programming environment
@@ -64,9 +68,14 @@ above to create your very own interactive quantum programming environment!
 [benchmarking]: https://github.com/rigetti/forest-benchmarking
 [binder]: https://mybinder.org
 [dockerfile]: https://docs.docker.com/engine/reference/builder/
+[docker-badge]: https://img.shields.io/docker/pulls/rigetti/forest-notebook.svg
 [docker-stacks]: https://github.com/jupyter/docker-stacks
 [forest]: https://hub.docker.com/r/rigetti/forest
 [forest-notebook]: https://hub.docker.com/r/rigetti/forest-notebook
+[github-badge]: https://img.shields.io/github/release/rigetti/forest-notebook.svg
+[github-release]: https://github.com/rigetti/forest-notebook/releases
+[gitlab-badge]: https://gitlab.com/rigetti/forest/forest-notebook/badges/master/pipeline.svg
+[gitlab-project]: https://gitlab.com/rigetti/forest/forest-notebook/commits/master
 [jupyter]: https://jupyter.org/
 [pyquil]: https://github.com/rigetti/pyquil
 [quilc]: https://github.com/rigetti/quilc

@@ -1,6 +1,15 @@
 include:
-  - project: rigetti/ci
-    file: pipelines/docker.gitlab-ci.yml
+  - project: rigetti/forest/gitlab-pipelines
+    file: docker.gitlab-ci.yml
 
 variables:
   IMAGE: rigetti/forest-notebook
+
+docker-branch:
+  extends: .docker-branch
+
+docker-edge:
+  extends: .docker-edge
+
+docker-stable:
+  extends: .docker-stable
