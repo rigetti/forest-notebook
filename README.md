@@ -73,7 +73,7 @@ For some examples of existing Forest-backed Binder repositories, check out the f
 - [`rigetti/qcs-paper`][qcs-paper]:
     Supplementary interactive notebooks from the [paper][arxiv] on Quantum Cloud Services.
 - [`karalekas/stanford-cs269q`][stanford-cs269q]:
-    Lecture notebook from Stanford's course on quantum computer programming with pyQuil.
+    Lecture notebook from Stanford's course on quantum computer programming.
 
 [arxiv]: https://arxiv.org/abs/2001.04449
 [benchmarking]: https://github.com/rigetti/forest-benchmarking
