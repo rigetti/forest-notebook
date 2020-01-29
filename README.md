@@ -1,6 +1,7 @@
 Interactive quantum programming with Forest & Jupyter
 =====================================================
 
+[![Binder](https://mybinder.org/badge_logo.svg)][binder]
 [![pipeline status][gitlab-badge]][gitlab-project]
 [![github release][github-badge]][github-release]
 [![docker pulls][docker-badge]][forest-notebook]
@@ -44,7 +45,7 @@ Creating a Binder repository using this image
 ---------------------------------------------
 
 One of the most exciting recent applications of a Jupyter-backed Docker
-image is [Binder][binder], which provides a free hosting service and
+image is [Binder][mybinder], which provides a free hosting service and
 executable environment for a repository of Jupyter notebooks. Binder can
 be configured many ways, but the most advanced configuration is via a custom
 Dockerfile. To create a Binder that has access to the full Forest quantum
@@ -65,18 +66,32 @@ WORKDIR ${HOME}
 Once you've added the Dockerfile, follow the instructions in the Binder link
 above to create your very own interactive quantum programming environment!
 
+For some examples of existing Forest-backed Binder repositories, check out the following:
+
+- [`rigetti/forest-tutorials`][forest-tutorials]:
+    Interactive tutorial notebooks for pyQuil and the Forest quantum programming SDK.
+- [`rigetti/qcs-paper`][qcs-paper]:
+    Supplementary interactive notebooks from the [paper][arxiv] on Quantum Cloud Services.
+- [`karalekas/stanford-cs269q`][stanford-cs269q]:
+    Lecture notebook from Stanford's course on quantum computer programming with pyQuil.
+
+[arxiv]: https://arxiv.org/abs/2001.04449
 [benchmarking]: https://github.com/rigetti/forest-benchmarking
-[binder]: https://mybinder.org
+[binder]: https://mybinder.org/v2/gh/rigetti/forest-tutorials/master?urlpath=lab/tree/Welcome.ipynb
 [dockerfile]: https://docs.docker.com/engine/reference/builder/
 [docker-badge]: https://img.shields.io/docker/pulls/rigetti/forest-notebook.svg
 [docker-stacks]: https://github.com/jupyter/docker-stacks
 [forest]: https://hub.docker.com/r/rigetti/forest
 [forest-notebook]: https://hub.docker.com/r/rigetti/forest-notebook
+[forest-tutorials]: https://github.com/rigetti/forest-tutorials
 [github-badge]: https://img.shields.io/github/release/rigetti/forest-notebook.svg
 [github-release]: https://github.com/rigetti/forest-notebook/releases
 [gitlab-badge]: https://gitlab.com/rigetti/forest/forest-notebook/badges/master/pipeline.svg
 [gitlab-project]: https://gitlab.com/rigetti/forest/forest-notebook/commits/master
 [jupyter]: https://jupyter.org/
+[mybinder]: https://mybinder.org
 [pyquil]: https://github.com/rigetti/pyquil
+[qcs-paper]: https://github.com/rigetti/qcs-paper
 [quilc]: https://github.com/rigetti/quilc
 [qvm]: https://github.com/rigetti/qvm
+[stanford-cs269q]: https://github.com/karalekas/stanford-cs269q
