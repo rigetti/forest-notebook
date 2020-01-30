@@ -1,5 +1,5 @@
 # build from the forest Docker image
-FROM rigetti/forest:2.16.0
+FROM rigetti/forest:2.17.0
 
 # install requirements for latex generation
 RUN apt-get update && apt-get -yq dist-upgrade && \
@@ -7,11 +7,8 @@ RUN apt-get update && apt-get -yq dist-upgrade && \
     ghostscript imagemagick texlive-latex-base texlive-latex-extra && \
     rm -rf /var/lib/apt/lists/*
 
-# install requirements for running pyquil example notebooks
-RUN pip install -r /src/pyquil/examples/requirements.txt
-
-# install forest-benchmarking for QCVV toolkit
-RUN pip install forest-benchmarking==0.7.1
+# install requirements for running pyQuil tutorial notebooks
+RUN pip install "pyquil[tutorials]"
 
 # install jupyter notebook and jupyter lab
 RUN pip install --no-cache-dir notebook==6.0.1 jupyterlab==1.1.4

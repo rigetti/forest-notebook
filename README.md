@@ -3,8 +3,8 @@ Interactive quantum programming with Forest & Jupyter
 
 [![Binder](https://mybinder.org/badge_logo.svg)][binder]
 [![pipeline status][gitlab-badge]][gitlab-project]
-[![github release][github-badge]][github-release]
 [![docker pulls][docker-badge]][forest-notebook]
+[![github release][github-badge]][github-release]
 
 The `forest-notebook` repository contains the [`Dockerfile`][dockerfile]
 for building the [`rigetti/forest-notebook`][forest-notebook] image.
