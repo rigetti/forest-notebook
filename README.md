@@ -2,7 +2,6 @@ Interactive quantum programming with Forest & Jupyter
 =====================================================
 
 [![Binder](https://mybinder.org/badge_logo.svg)][binder]
-[![pipeline status][gitlab-badge]][gitlab-project]
 [![docker pulls][docker-badge]][forest-notebook]
 [![github release][github-badge]][github-release]
 
