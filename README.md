@@ -73,6 +73,8 @@ For some examples of existing Forest-backed Binder repositories, check out the f
     Supplementary interactive notebooks from the [paper][arxiv] on Quantum Cloud Services.
 - [`karalekas/stanford-cs269q`][stanford-cs269q]:
     Lecture notebook from Stanford's course on quantum computer programming.
+- [`exeter-quantum/senior-project`][exeter]:
+    Notebooks from a quantum computing senior project at Phillips Exeter Academy.
 
 [arxiv]: https://arxiv.org/abs/2001.04449
 [benchmarking]: https://github.com/rigetti/forest-benchmarking
@@ -80,6 +82,7 @@ For some examples of existing Forest-backed Binder repositories, check out the f
 [dockerfile]: https://docs.docker.com/engine/reference/builder/
 [docker-badge]: https://img.shields.io/docker/pulls/rigetti/forest-notebook.svg
 [docker-stacks]: https://github.com/jupyter/docker-stacks
+[exeter]: https://github.com/exeter-quantum/senior-project
 [forest]: https://hub.docker.com/r/rigetti/forest
 [forest-notebook]: https://hub.docker.com/r/rigetti/forest-notebook
 [forest-tutorials]: https://github.com/rigetti/forest-tutorials
